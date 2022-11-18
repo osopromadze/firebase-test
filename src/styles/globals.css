@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#google-sign-in,
+#github-sign-in,
+#email-sign-in {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+#google-sign-in:hover {
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+#github-sign-in:hover {
+  box-shadow: 0 0 3px 3px rgba(23, 21, 21, 0.3);
+}
+
+#email-sign-in:hover {
+  box-shadow: 0 0 3px 3px rgba(187, 0, 27, 0.3);
+}
+
+.form-auth-label {
+  @apply text-base font-medium leading-relaxed text-gray-700;
+}
+
+.form-auth-input {
+  @apply block w-full px-4 py-2 mt-2 text-base text-gray-700 transition-all duration-150 bg-gray-100 border-transparent rounded outline-none focus:outline-none focus:ring focus:border-blue-300;
+}
+
+.form-validation-message {
+  @apply mt-1 text-xs text-red-500;
+}
+
+.form-auth-button {
+  @apply block w-full px-4 py-3 mt-6 font-semibold text-white transition-all duration-150 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-700 to-blue-500 hover:-translate-y-1 focus:outline-none focus:ring focus:border-blue-300;
+}

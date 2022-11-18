@@ -1,2 +1,1 @@
-# firebase-test
-Created with CodeSandbox
+# Notes
